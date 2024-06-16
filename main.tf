@@ -15,7 +15,7 @@ provider "google" {
   
 }
 
-# Create SSH-KEY
+# Create SSH-KEY-Pair
 resource "tls_private_key" "key" {
   algorithm = "ED25519"
 }
